@@ -3,4 +3,7 @@ public/
 resources/
 node_modules/
 tech-doc-hugo
+tmp/
 
+lingua-pupuli/static/editor-services
+lingua-pupuli/static/editor-syntax

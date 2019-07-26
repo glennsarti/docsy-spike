@@ -1,0 +1,19 @@
+<!-- Based on the docys lead shortcode -->
+{{ $_hugo_config := `{ "version": 1 }` }}
+{{ $col_id := .Get "color" | default .Ordinal }}
+{{ $but_col_id := .Get "button-color" | default "secondary" }}
+{{ $height := .Get "height" | default "auto"  }}
+{{/* Height can be one of: auto, min, med, max, full. */}}
+<a id="td-block-{{ .Ordinal }}" class="td-offset-anchor"></a>
+<section class="row td-box td-box--{{ $col_id }} position-relative td-box--gradient td-box--height-{{ $height }}">
+  <div class="container text-center td-arrow-down">
+    <span class="h4 mb-0">
+      {{ .Inner }}
+    </span>
+    {{ if .Get "link" }}
+    <a class="btn btn-lg btn-{{ $but_col_id }} mr-3 mb-4 " href="{{.Get "link"}}">
+      Learn More <i class="fas fa-arrow-alt-circle-right ml-2"></i>
+    </a>
+    {{ end }}
+</div>
+</section>
