@@ -125,6 +125,11 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
     name = "Lingua Pupuli Project"
     url = "https://lingua-pupuli.github.io"
     weight = 100
+  [[menu.main]]
+    identifier = "Alt. Home Page"
+    name = "Alt. Home Page"
+    url = "something/"
+    weight = 101
 
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
