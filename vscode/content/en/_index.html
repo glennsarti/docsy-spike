@@ -1,7 +1,6 @@
 ---
 title: "Home"
 linkTitle: "Home"
-
 ---
 
 <!-- Modified blocks/cover shortcode -->
@@ -82,49 +81,50 @@ linkTitle: "Home"
 
 {{< blocks/section color="white" >}}
 
-{{% blocks/vscode-feature icon="fa fa-magic" title="Intellisense" url="docs/features/intellisense" iconBackground="primary" %}}
-Live intellisense of the Puppet Custom Types, Functions, Classes and Defined Types
-{{% /blocks/vscode-feature %}}
-
-{{% blocks/vscode-feature icon="fa fa-road" title="Code Navigation" url="docs/features/linting" titleColor="text-secondary" %}}
-The power of an IDE and the speed of a text editor
-{{% /blocks/vscode-feature %}}
-
-{{% blocks/vscode-feature icon="fa fa-flask" title="Linting" url="docs/features/linting" iconBackground="success" titleColor="text-success" %}}
-As you type puppet-lint checking integrated into the Problems Pane
-{{% /blocks/vscode-feature %}}
-
-{{% blocks/vscode-feature icon="fa fa-project-diagram" title="Puppet Commands" url="docs/features/puppet-commands" %}}
-Use Puppet commands from within VSCode
-{{% /blocks/vscode-feature %}}
-
-{{% blocks/vscode-feature icon="fa fa-code" title="Puppet Development Kit" url="docs/know_where" linkType="2" %}}
-Built in PDK commands
-{{% /blocks/vscode-feature %}}
-
-{{% blocks/vscode-feature icon="fa fa-broadcast-tower" title="Remote Development" url="docs/know_where" %}}
-Develop in Docker, WSL, or SSH
-{{% /blocks/vscode-feature %}}
-
-{{% blocks/vscode-feature icon="fa fa-bug" title="Debugging Puppet Code" url="docs/know_where" %}}
-Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console.
-{{% /blocks/vscode-feature %}}
-
-{{% blocks/vscode-feature icon="fa fa-toolbox" title="Control Repo" %}}
-Live intellisense of the Puppet Custom Types, Functions, Classes and Defined Types all from inside a control repoxx
-{{% /blocks/vscode-feature %}}
-
-{{% blocks/vscode-feature icon="fa fa-bolt" title="Puppet Bolt" %}}
-Open source automation, in the editor.
-{{% /blocks/vscode-feature %}}
-
-{{% blocks/vscode-feature icon="fa fa-pencil-alt" title="vim" %}}
-Benefit from the some of the same features of VSCode inside vim
-{{% /blocks/vscode-feature %}}
-
-{{% blocks/vscode-feature icon="fas fa fa-atom" title="Atom (yes the icon is broken)" %}}
-Benefit from the some of the same features of VSCode inside Atom
-{{% /blocks/vscode-feature %}}
+<div class="container">
+  <div class="card-deck mt-3 mb-5">
+      {{< feature-card icon="fa fa-magic" title="Intellisense" url="docs/features/intellisense" >}}
+      Live intellisense of the Puppet Custom Types, Functions, Classes and Defined Types
+      {{< /feature-card >}}
+      {{< feature-card icon="fa fa-road" title="Code Navigation" url="docs/features/code-navigation" >}}
+      The power of an IDE and the speed of a text editor
+      {{< /feature-card >}}
+      {{< feature-card icon="fa fa-flask" title="Linting" url="docs/features/linting" >}}
+      As you type puppet-lint checking integrated into the Problems Pane
+      {{< /feature-card >}}
+  </div>
+  <div class="card-deck mt-3 mb-5">
+    {{< feature-card icon="fa fa-project-diagram" title="Puppet Commands" url="docs/features/puppet-commands" >}}
+    Use Puppet commands from within VSCode
+    {{< /feature-card >}}
+    {{< feature-card icon="fa fa-code" title="Puppet Development Kit" url="docs/features/puppet-development-kit" >}}
+    Built in PDK commands
+    {{< /feature-card >}}
+    {{< feature-card icon="fa fa-broadcast-tower" title="Remote Development" url="docs/features/remote-development" >}}
+    Develop in Docker, WSL, or SSH
+    {{< /feature-card >}}
+  </div>
+  <div class="card-deck mt-3 mb-5">
+    {{< feature-card icon="fa fa-bug" title="Debugging Puppet Code" url="docs/features/debugging-puppet-code" >}}
+    Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console.
+    {{< /feature-card >}}
+    {{< feature-card icon="fa fa-toolbox" title="Control Repo" url="docs/features/control-repository" >}}
+    Live intellisense of the Puppet Custom Types, Functions, Classes and Defined Types all from inside a control repoxx
+    {{< /feature-card >}}
+    {{< feature-card icon="fa fa-bolt" title="Puppet Bolt" url="docs/features/puppet-bolt" >}}
+    Open source automation, in the editor.
+    {{< /feature-card >}}
+  </div>
+<!-- Do we really need to talk about Vim/Atom?
+  <div class="card-deck mt-3 mb-5">
+    {{< feature-card icon="fa fa-pencil-alt" title="vim" >}}
+    Benefit from the some of the same features of VSCode inside vim
+    {{< /feature-card >}}
+    {{< feature-card icon="fas fa fa-atom" title="Atom (yes the icon is broken)" >}}
+    Benefit from the some of the same features of VSCode inside Atom
+    {{< /feature-card >}}
+  </div> -->
+</div>
 
 {{< /blocks/section >}}
 

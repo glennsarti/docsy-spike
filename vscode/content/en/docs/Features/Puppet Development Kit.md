@@ -1,8 +1,8 @@
 ---
-title: "Puppet Commands"
+title: "Puppet Development Kit"
 weight: 2
 description: >
-  Built in PDK commands
+  Built in PDK Development Kit (PDK) commands
 ---
 
 ## PDK

@@ -3,7 +3,7 @@
 {{ $icon := .Get "icon" | default "fa-lightbulb" }}
 {{ $iconBackground := .Get "iconBackground" | default "secondary" }}
 {{ $url := .Get "url" }}
-{{ $cardType := .Get "cardType" | default "card-head"}}
+{{ $cardType := .Get "cardType" | default "card-header"}}
 <div class="card text-center shadow">
   {{- if $url -}}<a href="{{ $url }}" class="card-link stretched-link" title="{{ $title }}">{{- end -}}
   <div class="{{ $cardType }}">
