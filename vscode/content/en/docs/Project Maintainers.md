@@ -11,7 +11,7 @@ description: >
 
 - [Glenn Sarti](https://github.com/glennsarti) - [@glennsarti](http://twitter.com/glennsarti)
 
-## Additional Maintainers
+### Contributors
 
 - [Michael T Lombardi](https://github.com/michaeltlombardi) - [@TrebuchetOps](http://twitter.com/TrebuchetOps)
 
