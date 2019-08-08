@@ -5,4 +5,8 @@ description: >
   Intellisense for control repos
 ---
 
-## Control Repos
+{{% alert title="Coming Soon" color="success" %}}
+Control Repositories
+
+Under active development!!
+{{% /alert %}}

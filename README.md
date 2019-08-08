@@ -30,3 +30,19 @@ This hugo site needs the editor-services and editor-syntax site built first, int
 ```
 hugo server --bind "0.0.0.0" --source vscode
 ```
+
+## Guidelines
+
+### Creating animated GIFS
+
+- Size should be ??? px wide and ??? px high
+
+- VS Code should be zoomed in to ???%
+
+- Have blue border
+
+- Use VS Code stable, not Insiders
+
+- Reduce palette clutter where possible
+
+- Speed up frames to avoid users staring at a blank gif

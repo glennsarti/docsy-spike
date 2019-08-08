@@ -1,8 +1,6 @@
 ---
 title: "Features"
-weight: 10
+weight: 30
 description: >
-  How to use the Puppet VSCode Extension
+  All of the amazing things you can do with the extension
 ---
-
-All of the amazing things the VSCode Extension can do!!

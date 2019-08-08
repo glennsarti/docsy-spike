@@ -93,7 +93,7 @@ github_project_repo = "https://github.com/lingua-pupuli/puppet-vscode"
 # github_subdir = ""
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-gcs_engine_id = "007108525698950781371:dwj6x5rbfrw"
+# gcs_engine_id = "007108525698950781371:dwj6x5rbfrw"
 
 # User interface configuration
 [params.ui]

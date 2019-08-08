@@ -18,28 +18,28 @@ Supported symbols:
 
 More symbols are planned to be added.
 
-> Note: Puppet 4 is not supported for symbols
+> Note: Outline View is not support on Puppet 4
 
-![outline_view](https://raw.githubusercontent.com/lingua-pupuli/puppet-vscode/master/docs/assets/outline_view.gif)
+![outline_view]({{< static "img/outline_view.gif" >}})
 
 ## Breadcrumbs
 
 When the `breadcrumbs.enabled` setting is set to true, both the file path and the symbol tree hierarchy are shown in the Breadcrumb view.
 
-> Note: Puppet 4 is not supported for symbols
+> Note: Breadcrumbs are not support on Puppet 4
 
-![breadcrumbs](https://raw.githubusercontent.com/lingua-pupuli/puppet-vscode/master/docs/assets/breadcrumbs.gif)
+![breadcrumbs]({{< static "img/breadcrumbs.gif" >}})
 
 ## Go to Symbol
 
 Opening the `Command Palette` and typing the `@` symbol initiates the `Go to Symbol` view which allows you to navigate around inside a Puppet manifest more quickly.
 
-> Note: Puppet 4 is not supported
+> Note: Go to Symbol is not support on Puppet 4
 
-![go_to_symbol](https://raw.githubusercontent.com/lingua-pupuli/puppet-vscode/master/docs/assets/go_to_symbol.gif)
+![go_to_symbol]({{< static "img/go_to_symbol.gif" >}})
 
 ## Open Symbol by Name
 
 Pressing `Ctrl+T` (or ⌘T on OSX) will list all [Puppet Custom Types](https://puppet.com/docs/puppet/latest/custom_types.html), [Functions](https://puppet.com/docs/puppet/latest/lang_write_functions_in_puppet.html), [Classes](https://puppet.com/docs/puppet/latest/lang_classes.html) and [Defined Types](https://puppet.com/docs/puppet/latest/lang_defined_types.html) in the workspace. You can then [navigate to the symbol](https://code.visualstudio.com/docs/editor/editingevolved#_open-symbol-by-name) by pressing `Enter`.
 
-> Note: Puppet 4 has limited support
+> Note: Open Symbol by Name has limited support using Puppet 4

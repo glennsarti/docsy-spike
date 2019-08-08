@@ -8,9 +8,3 @@ menu:
 description: >
   What is the Puppet VSCode Extension
 ---
-
-{{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
-{{% /pageinfo %}}
-
-Introduction to the VSCode Extension
