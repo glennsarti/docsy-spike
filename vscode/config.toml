@@ -71,10 +71,10 @@ weight = 1
   youtube      = '//www.youtube.com/results?search_query=%23PuppetizeLive'
   email        = '//puppetcommunity.slack.com'
   # twitter card details
-  description = "Puppet VSCode Extension"
+  description = "Puppet VS Code Extension"
   images      = []
   # opengraph title
-  title = "Puppet VSCode Extension"
+  title = "Puppet VS Code Extension"
 
 
 copyright = "James Pogran, Glenn Sarti, Michael Lombardi"
@@ -93,7 +93,7 @@ github_project_repo = "https://github.com/lingua-pupuli/puppet-vscode"
 # github_subdir = ""
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-#gcs_engine_id = "011737558837375720776:fsdu1nryfng"
+gcs_engine_id = "007108525698950781371:dwj6x5rbfrw"
 
 # User interface configuration
 [params.ui]
@@ -136,15 +136,15 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
         icon = "fab fa-twitter"
         desc = "Follow us on Twitter to get the latest news!"
 [[params.links.user]]
-        name ="Youtube Vidoes about Puppet VSCode"
+        name ="Youtube Vidoes about Puppet VS Code"
         url = "https://www.youtube.com/results?search_query=%23PuppetizeLive"
         icon = "fab fa-youtube"
-        desc = "Youtube Vidoes about Puppet VSCode"
+        desc = "Youtube Vidoes about Puppet VS Code"
 [[params.links.user]]
-        name = "VSCode Marketplace"
+        name = "VS Code Marketplace"
         url = "https://pup.pt/vscode"
         icon = "fab fa-microsoft"
-        desc = "The VSCode Marketplace"
+        desc = "The VS Code Marketplace"
 
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
