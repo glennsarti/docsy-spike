@@ -3,19 +3,19 @@ title: "Extension Settings"
 weight: 2
 description: >
   How do you configure the extension
+github_repo: "" # Disable the edit commands
 ---
 
 You can configure [User and Workspace VS Code settings](https://code.visualstudio.com/docs/getstarted/settings) for the Puppet Extension, like any other VS Code setting. The table below lists all of the available settings for the Puppet Extension
 
+{{% alert title="Information" color="secondary" %}}
+The setting information comes from the Puppet VS Code Extension [`package.json`](https://github.com/lingua-pupuli/puppet-vscode/blob/master/package.json) file. If you would
+like to make changes, please create a project issue.
+{{% /alert %}}
+
 ## Available settings
 
 <!-- Begin Available Settings -->
-#### puppet.editorService.enable
-
-Enable/disable advanced Puppet Language Features
-
-Default: true
-
 #### puppet.editorService.debugFilePath
 
 The absolute filepath where the Puppet Editor Service will output the debugging log. By default no logfile is generated
@@ -24,7 +24,13 @@ The absolute filepath where the Puppet Editor Service will output the debugging 
 
 The name of the image with tag that contains the Puppet Language server. For example: linguapupuli/puppet-language-server:latest
 
-Default: linguapupuli/puppet-language-server:latest
+Default: `linguapupuli/puppet-language-server:latest`
+
+#### puppet.editorService.enable
+
+Enable/disable advanced Puppet Language Features
+
+Default: `True`
 
 #### puppet.editorService.featureFlags
 
@@ -34,17 +40,17 @@ An array of strings of experimental features to enable in the Puppet Editor Serv
 
 Set the logging verbosity level for the Puppet Editor Service, with Debug producing the most output and Error producing the least
 
-Possible values: debug, error, normal, warning, verbose
+Possible values: `debug`, `error`, `normal`, `warning`, `verbose`
 
-Default: normal
+Default: `normal`
 
 #### puppet.editorService.protocol
 
 The protocol used to communicate with the Puppet Editor Service.  By default the local STDIO protocol is used
 
-Possible values: stdio, tcp, docker
+Possible values: `stdio`, `tcp`, `docker`
 
-Default: stdio
+Default: `stdio`
 
 #### puppet.editorService.puppet.confdir
 
@@ -78,13 +84,13 @@ The TCP Port of the remote Puppet Editor Service to connect to. Only applicable 
 
 The timeout to connect to the Puppet Editor Service
 
-Default: 10
+Default: `10`
 
 #### puppet.format.enable
 
 Enable/disable the Puppet document formatter
 
-Default: true
+Default: `True`
 
 #### puppet.installDirectory
 
@@ -94,31 +100,31 @@ The fully qualified path to the Puppet install directory. This can be a PDK or P
 
 The type of Puppet installation. Either the Puppet Development Kit (pdk) or the Puppet Agent (agent). Choose 'auto' to have the extension detect which to use automatically based on default install locations
 
-Possible values: auto, pdk, agent
+Possible values: `auto`, `pdk`, `agent`
 
-Default: auto
+Default: `auto`
 
 #### puppet.notification.nodeGraph
 
 The type of notification used when a node graph is being generated. Default value of messagebox
 
-Possible values: messagebox, statusbar, none
+Possible values: `messagebox`, `statusbar`, `none`
 
-Default: messagebox
+Default: `messagebox`
 
 #### puppet.notification.puppetResource
 
 The type of notification used when a running Puppet Resouce. Default value of messagebox
 
-Possible values: messagebox, statusbar, none
+Possible values: `messagebox`, `statusbar`, `none`
 
-Default: messagebox
+Default: `messagebox`
 
 #### puppet.titleBar.pdkNewModule.enable
 
 Enable/disable the PDK New Module icon in the Editor Title Bar
 
-Default: true
+Default: `True`
 
 
 <!-- End Available Settings -->
@@ -130,17 +136,25 @@ Default: true
 
 Please use puppet.editorService.puppet.modulePath instead
 
-#### puppet.languageclient.protocol
-
-Please use puppet.editorService.protocol instead
-
 #### puppet.languageclient.minimumUserLogLevel
 
 Please use puppet.editorService.loglevel instead
 
+#### puppet.languageclient.protocol
+
+Please use puppet.editorService.protocol instead
+
 #### puppet.languageserver.address
 
 Please use puppet.editorService.tcp.address instead
+
+#### puppet.languageserver.debugFilePath
+
+Please use puppet.editorService.debugFilePath instead
+
+#### puppet.languageserver.filecache.enable
+
+Please use puppet.editorService.featureFlags with 'filecache' instead
 
 #### puppet.languageserver.port
 
@@ -150,17 +164,29 @@ Please use puppet.editorService.tcp.port instead
 
 Please use puppet.editorService.timeout instead
 
-#### puppet.languageserver.filecache.enable
-
-Please use puppet.editorService.featureFlags with 'filecache' instead
-
-#### puppet.languageserver.debugFilePath
-
-Please use puppet.editorService.debugFilePath instead
-
 #### puppet.puppetAgentDir
 
 Please use puppet.installDirectory instead
 
 
 <!-- End Deprecated Settings -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
